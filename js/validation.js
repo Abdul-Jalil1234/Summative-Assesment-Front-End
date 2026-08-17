@@ -19,7 +19,7 @@ const REGEX = {
 
   // Institutional student email OR a standard email address.
   // e.g. john.doe@bse.ac.mu  OR  jane@example.com
-  studentEmail: /^[a-z]{1}\.[a-zA-Z0-9._%+-]+@alustudent\.com$/,
+  studentEmail: /^[a-z]{1}\.[a-zA-Z0-9]+@alustudent\.com$/,
 
   // Student ID: 10 digits, e.g. 1276830987
   studentId: /^\d{10}$/,
